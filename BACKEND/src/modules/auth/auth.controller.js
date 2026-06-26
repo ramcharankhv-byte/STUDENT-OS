@@ -27,7 +27,6 @@ export const registerUser = asyncHandler(async (req, res) => {
     college,
     year,
     branch,
-    bio,
   );
 
   const { unHashedToken, hashedToken, tokenExpiry } =
